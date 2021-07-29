@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Target View Controller-->
+        <scene sceneID="FNj-mi-dIT">
+            <objects>
+                <viewController restorationIdentifier="TargetViewController" storyboardIdentifier="TargetViewController" id="6cq-pA-pdS" customClass="TargetViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CyD-Gn-sf6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4H-JL-UHD">
+                                <rect key="frame" x="101" y="240" width="213" height="205"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Iu6-zt-10Q"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="P4H-JL-UHD" firstAttribute="leading" secondItem="Iu6-zt-10Q" secondAttribute="leading" constant="101" id="NPt-lf-9jy"/>
+                            <constraint firstItem="P4H-JL-UHD" firstAttribute="centerX" secondItem="CyD-Gn-sf6" secondAttribute="centerX" id="hZd-PW-HXR"/>
+                            <constraint firstItem="Iu6-zt-10Q" firstAttribute="bottom" secondItem="P4H-JL-UHD" secondAttribute="bottom" constant="417" id="uGP-i9-pPu"/>
+                            <constraint firstItem="P4H-JL-UHD" firstAttribute="top" secondItem="Iu6-zt-10Q" secondAttribute="top" constant="196" id="yhO-oi-QdY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="testBtn" destination="P4H-JL-UHD" id="bPX-KS-VKe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pK8-vW-1fO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1162" y="-181"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
