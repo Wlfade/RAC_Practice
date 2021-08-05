@@ -199,6 +199,229 @@
             </objects>
             <point key="canvasLocation" x="90" y="538"/>
         </scene>
+        <!--MacroVC-->
+        <scene sceneID="KBf-hj-yMF">
+            <objects>
+                <viewController storyboardIdentifier="RACMacroVC" id="Kye-ar-lS9" customClass="RACMacroVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uyS-MZ-WQ7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z7N-nU-52C">
+                                <rect key="frame" x="31" y="135" width="318" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QU-yd-QdK">
+                                <rect key="frame" x="31" y="215" width="318" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.58431372550000005" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Mdl-iZ-CIL"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelView" destination="8QU-yd-QdK" id="5hT-yL-LdF"/>
+                        <outlet property="textField" destination="Z7N-nU-52C" id="cCz-HO-ZVe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TrL-aP-s2k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="933" y="538"/>
+        </scene>
+        <!--Example OneVC-->
+        <scene sceneID="5bT-Qr-nHO">
+            <objects>
+                <viewController storyboardIdentifier="RACExampleOneVC" id="2kv-o4-pGa" customClass="RACExampleOneVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jnj-07-BVf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KC5-He-yKO">
+                                <rect key="frame" x="83" y="161" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.58431372550000005" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UoB-im-eL8">
+                                <rect key="frame" x="95" y="474" width="235" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqz-kc-k34">
+                                <rect key="frame" x="90" y="365" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1873914931" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="2kv-o4-pGa" eventType="touchUpInside" id="HrT-EG-OVg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1rz-Na-OmD"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KC5-He-yKO" firstAttribute="top" secondItem="1rz-Na-OmD" secondAttribute="top" constant="141" id="Xi2-2Z-eaL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btn" destination="Aqz-kc-k34" id="3Pb-BS-u58"/>
+                        <outlet property="redV" destination="KC5-He-yKO" id="kc8-5i-MFY"/>
+                        <outlet property="textField" destination="UoB-im-eL8" id="7zW-dX-30l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VHz-lt-DbC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1690" y="538"/>
+        </scene>
+        <!--SubjectVC-->
+        <scene sceneID="eIY-Yj-ZWf">
+            <objects>
+                <viewController storyboardIdentifier="RACSubjectVC" id="Lza-JD-Vcc" customClass="RACSubjectVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D1Y-Yf-L91">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXI-dG-zhM">
+                                <rect key="frame" x="29" y="176" width="317" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="代替代理"/>
+                                <connections>
+                                    <action selector="notice:" destination="Lza-JD-Vcc" eventType="touchUpInside" id="ksI-tC-GPI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gZ3-2r-GRz"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VJm-K6-tSu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-749" y="1225"/>
+        </scene>
+        <!--Bind MethodVC-->
+        <scene sceneID="BLp-mE-rut">
+            <objects>
+                <viewController storyboardIdentifier="RACBindMethodVC" id="3vd-w6-hC9" customClass="RACBindMethodVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z8c-3L-rLj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nE2-Fe-5pH">
+                                <rect key="frame" x="29" y="114" width="330" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mCJ-Jx-rWe"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="nE2-Fe-5pH" id="fAe-jv-UmC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="udP-mV-VZ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="90" y="1225"/>
+        </scene>
+        <!--Map MethodVC-->
+        <scene sceneID="MZR-pB-j2X">
+            <objects>
+                <viewController storyboardIdentifier="RACMapMethodVC" id="WIC-Pr-Sxf" customClass="RACMapMethodVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Lo-47-0HT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Aed-Wy-laJ">
+                                <rect key="frame" x="29" y="114" width="330" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ms1-rf-ehx"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="Aed-Wy-laJ" id="XrI-GE-jmV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="naF-tZ-CgY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="1225"/>
+        </scene>
+        <!--Filter MethodVC-->
+        <scene sceneID="Xlp-bC-WsM">
+            <objects>
+                <viewController storyboardIdentifier="RACFilterMethodVC" id="kTa-fU-Ohd" customClass="RACFilterMethodVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aJ0-xG-l8L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QtD-cE-o1K">
+                                <rect key="frame" x="16" y="253" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.58431372550000005" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uDp-06-uew"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="QtD-cE-o1K" id="GGB-1i-2gD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jL8-rV-cOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1690" y="1225"/>
+        </scene>
+        <!--Login ExampleVC-->
+        <scene sceneID="Ytx-bn-gIi">
+            <objects>
+                <viewController storyboardIdentifier="LoginExampleVC" id="6kz-DG-zL1" customClass="LoginExampleVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OVa-pF-sj0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wjb-C9-Lw2">
+                                <rect key="frame" x="27" y="221" width="320" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="登录名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bYT-1E-lYv">
+                                <rect key="frame" x="27" y="133" width="320" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svs-gV-IKP">
+                                <rect key="frame" x="27" y="376" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1873914931" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="登录"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SLM-LP-9H7"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="Svs-gV-IKP" id="R4l-e6-iGx"/>
+                        <outlet property="pwdTextField" destination="Wjb-C9-Lw2" id="jp5-w8-WlF"/>
+                        <outlet property="userTextField" destination="bYT-1E-lYv" id="jsg-3t-d1l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7O2-YA-VoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-749" y="1954"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

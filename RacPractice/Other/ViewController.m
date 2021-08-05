@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.meunArr = @[@"TargetViewController", @"DelegateViewController", @"KVOViewController",@"NoticeViewController",@"TestViewController",@"LoginViewController",@"SliderViewController"];
+    self.meunArr = @[@"TargetViewController", @"DelegateViewController",@"RACSubjectVC", @"KVOViewController",@"NoticeViewController",@"TestViewController",@"LoginViewController",@"SliderViewController",@"RACCommandVC",@"RACMulticastConnectionVC",@"RACMacroVC",@"RACExampleOneVC", @"RACBindMethodVC", @"RACMapMethodVC", @"RACCombineMethodVC", @"RACFilterMethodVC", @"RACOrderMethodVC", @"RACTimeMethodVC", @"RACRepeatMethodVC", @"RACSchedulerMethodVC", @"LoginExampleVC", @"RACNetWorkExampleVC"];
 
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

@@ -28,6 +28,25 @@
 		40E5DE6326B12C4000E4BD30 /* notice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E5DE6226B12C4000E4BD30 /* notice.storyboard */; };
 		40E5DE7326B13A2B00E4BD30 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E5DE7226B13A2B00E4BD30 /* LoginViewController.m */; };
 		40E5DE7626B147FA00E4BD30 /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E5DE7526B147FA00E4BD30 /* SliderViewController.m */; };
+		40FF70A126BBCF700079AB09 /* RACCommandVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70A026BBCF700079AB09 /* RACCommandVC.m */; };
+		40FF70A426BBD3AC0079AB09 /* RACMulticastConnectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70A226BBD3AC0079AB09 /* RACMulticastConnectionVC.m */; };
+		40FF70A926BBD3F20079AB09 /* RACMacroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70A726BBD3F20079AB09 /* RACMacroVC.m */; };
+		40FF70AC26BBD4BC0079AB09 /* RACExampleOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70AA26BBD4BC0079AB09 /* RACExampleOneVC.m */; };
+		40FF70B026BBD5730079AB09 /* RACSubjectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70AE26BBD5730079AB09 /* RACSubjectVC.m */; };
+		40FF70C326BBD7B30079AB09 /* RACBindMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70B326BBD7B30079AB09 /* RACBindMethodVC.m */; };
+		40FF70C426BBD7B30079AB09 /* RACFilterMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70B426BBD7B30079AB09 /* RACFilterMethodVC.m */; };
+		40FF70C526BBD7B30079AB09 /* RACSchedulerMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70B626BBD7B30079AB09 /* RACSchedulerMethodVC.m */; };
+		40FF70C626BBD7B30079AB09 /* RACTimeMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70B726BBD7B30079AB09 /* RACTimeMethodVC.m */; };
+		40FF70C726BBD7B30079AB09 /* RACCombineMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70BD26BBD7B30079AB09 /* RACCombineMethodVC.m */; };
+		40FF70C826BBD7B30079AB09 /* RACRepeatMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70C026BBD7B30079AB09 /* RACRepeatMethodVC.m */; };
+		40FF70C926BBD7B30079AB09 /* RACMapMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70C126BBD7B30079AB09 /* RACMapMethodVC.m */; };
+		40FF70CA26BBD7B30079AB09 /* RACOrderMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70C226BBD7B30079AB09 /* RACOrderMethodVC.m */; };
+		40FF70DA26BBD7D10079AB09 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70D026BBD7D10079AB09 /* Account.m */; };
+		40FF70DB26BBD7D10079AB09 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70D126BBD7D10079AB09 /* LoginViewModel.m */; };
+		40FF70DC26BBD7D10079AB09 /* LoginExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70D226BBD7D10079AB09 /* LoginExampleVC.m */; };
+		40FF70DD26BBD7D10079AB09 /* RACNetWorkExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70D426BBD7D10079AB09 /* RACNetWorkExampleVC.m */; };
+		40FF70DE26BBD7D10079AB09 /* RACRequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70D626BBD7D10079AB09 /* RACRequestViewModel.m */; };
+		40FF70DF26BBD7D10079AB09 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF70D726BBD7D10079AB09 /* Book.m */; };
 		84B671C49D6AE0FDD1D98CF5 /* Pods_RacPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF28562395E0C990AB7CCD26 /* Pods_RacPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +87,44 @@
 		40E5DE7226B13A2B00E4BD30 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		40E5DE7426B147FA00E4BD30 /* SliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
 		40E5DE7526B147FA00E4BD30 /* SliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
+		40FF709F26BBCF700079AB09 /* RACCommandVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACCommandVC.h; sourceTree = "<group>"; };
+		40FF70A026BBCF700079AB09 /* RACCommandVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCommandVC.m; sourceTree = "<group>"; };
+		40FF70A226BBD3AC0079AB09 /* RACMulticastConnectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACMulticastConnectionVC.m; sourceTree = "<group>"; };
+		40FF70A326BBD3AC0079AB09 /* RACMulticastConnectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACMulticastConnectionVC.h; sourceTree = "<group>"; };
+		40FF70A726BBD3F20079AB09 /* RACMacroVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACMacroVC.m; sourceTree = "<group>"; };
+		40FF70A826BBD3F20079AB09 /* RACMacroVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACMacroVC.h; sourceTree = "<group>"; };
+		40FF70AA26BBD4BC0079AB09 /* RACExampleOneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACExampleOneVC.m; sourceTree = "<group>"; };
+		40FF70AB26BBD4BC0079AB09 /* RACExampleOneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACExampleOneVC.h; sourceTree = "<group>"; };
+		40FF70AE26BBD5730079AB09 /* RACSubjectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSubjectVC.m; sourceTree = "<group>"; };
+		40FF70AF26BBD5730079AB09 /* RACSubjectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSubjectVC.h; sourceTree = "<group>"; };
+		40FF70B326BBD7B30079AB09 /* RACBindMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBindMethodVC.m; sourceTree = "<group>"; };
+		40FF70B426BBD7B30079AB09 /* RACFilterMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACFilterMethodVC.m; sourceTree = "<group>"; };
+		40FF70B526BBD7B30079AB09 /* RACCombineMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACCombineMethodVC.h; sourceTree = "<group>"; };
+		40FF70B626BBD7B30079AB09 /* RACSchedulerMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSchedulerMethodVC.m; sourceTree = "<group>"; };
+		40FF70B726BBD7B30079AB09 /* RACTimeMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTimeMethodVC.m; sourceTree = "<group>"; };
+		40FF70B826BBD7B30079AB09 /* RACOrderMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACOrderMethodVC.h; sourceTree = "<group>"; };
+		40FF70B926BBD7B30079AB09 /* RACMapMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACMapMethodVC.h; sourceTree = "<group>"; };
+		40FF70BA26BBD7B30079AB09 /* RACRepeatMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACRepeatMethodVC.h; sourceTree = "<group>"; };
+		40FF70BB26BBD7B30079AB09 /* RACTimeMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTimeMethodVC.h; sourceTree = "<group>"; };
+		40FF70BC26BBD7B30079AB09 /* RACSchedulerMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSchedulerMethodVC.h; sourceTree = "<group>"; };
+		40FF70BD26BBD7B30079AB09 /* RACCombineMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACCombineMethodVC.m; sourceTree = "<group>"; };
+		40FF70BE26BBD7B30079AB09 /* RACBindMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBindMethodVC.h; sourceTree = "<group>"; };
+		40FF70BF26BBD7B30079AB09 /* RACFilterMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACFilterMethodVC.h; sourceTree = "<group>"; };
+		40FF70C026BBD7B30079AB09 /* RACRepeatMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACRepeatMethodVC.m; sourceTree = "<group>"; };
+		40FF70C126BBD7B30079AB09 /* RACMapMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACMapMethodVC.m; sourceTree = "<group>"; };
+		40FF70C226BBD7B30079AB09 /* RACOrderMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACOrderMethodVC.m; sourceTree = "<group>"; };
+		40FF70CD26BBD7D10079AB09 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		40FF70CE26BBD7D10079AB09 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		40FF70CF26BBD7D10079AB09 /* LoginExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginExampleVC.h; sourceTree = "<group>"; };
+		40FF70D026BBD7D10079AB09 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		40FF70D126BBD7D10079AB09 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		40FF70D226BBD7D10079AB09 /* LoginExampleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginExampleVC.m; sourceTree = "<group>"; };
+		40FF70D426BBD7D10079AB09 /* RACNetWorkExampleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACNetWorkExampleVC.m; sourceTree = "<group>"; };
+		40FF70D526BBD7D10079AB09 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		40FF70D626BBD7D10079AB09 /* RACRequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACRequestViewModel.m; sourceTree = "<group>"; };
+		40FF70D726BBD7D10079AB09 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		40FF70D826BBD7D10079AB09 /* RACNetWorkExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACNetWorkExampleVC.h; sourceTree = "<group>"; };
+		40FF70D926BBD7D10079AB09 /* RACRequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACRequestViewModel.h; sourceTree = "<group>"; };
 		6F5C545461E808ABFDC71D50 /* Pods-RacPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacPractice.release.xcconfig"; path = "Target Support Files/Pods-RacPractice/Pods-RacPractice.release.xcconfig"; sourceTree = "<group>"; };
 		7CAEADC3DE3195DC69867D21 /* Pods-RacPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacPractice.debug.xcconfig"; path = "Target Support Files/Pods-RacPractice/Pods-RacPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		DF28562395E0C990AB7CCD26 /* Pods_RacPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RacPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,6 +256,13 @@
 		40E5DE6426B1332400E4BD30 /* Main主要功能模块 */ = {
 			isa = PBXGroup;
 			children = (
+				40FF70CB26BBD7D10079AB09 /* Example */,
+				40FF70B226BBD7B30079AB09 /* Method */,
+				40FF70B126BBD5760079AB09 /* RACSubjectVC */,
+				40FF70AD26BBD4C00079AB09 /* RACExampleOne */,
+				40FF70A626BBD3E80079AB09 /* Macro */,
+				40FF70A526BBD3B00079AB09 /* RACMutlticast */,
+				40FF709E26BBCEF80079AB09 /* RACCommand */,
 				40E5DE6F26B139B800E4BD30 /* Slider */,
 				4096D21026675096008BF7EC /* Target-Action */,
 				4096D20B26674A8F008BF7EC /* Delegate */,
@@ -287,6 +351,109 @@
 				40E5DE7226B13A2B00E4BD30 /* LoginViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		40FF709E26BBCEF80079AB09 /* RACCommand */ = {
+			isa = PBXGroup;
+			children = (
+				40FF709F26BBCF700079AB09 /* RACCommandVC.h */,
+				40FF70A026BBCF700079AB09 /* RACCommandVC.m */,
+			);
+			path = RACCommand;
+			sourceTree = "<group>";
+		};
+		40FF70A526BBD3B00079AB09 /* RACMutlticast */ = {
+			isa = PBXGroup;
+			children = (
+				40FF70A326BBD3AC0079AB09 /* RACMulticastConnectionVC.h */,
+				40FF70A226BBD3AC0079AB09 /* RACMulticastConnectionVC.m */,
+			);
+			path = RACMutlticast;
+			sourceTree = "<group>";
+		};
+		40FF70A626BBD3E80079AB09 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				40FF70A826BBD3F20079AB09 /* RACMacroVC.h */,
+				40FF70A726BBD3F20079AB09 /* RACMacroVC.m */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		40FF70AD26BBD4C00079AB09 /* RACExampleOne */ = {
+			isa = PBXGroup;
+			children = (
+				40FF70AB26BBD4BC0079AB09 /* RACExampleOneVC.h */,
+				40FF70AA26BBD4BC0079AB09 /* RACExampleOneVC.m */,
+			);
+			path = RACExampleOne;
+			sourceTree = "<group>";
+		};
+		40FF70B126BBD5760079AB09 /* RACSubjectVC */ = {
+			isa = PBXGroup;
+			children = (
+				40FF70AF26BBD5730079AB09 /* RACSubjectVC.h */,
+				40FF70AE26BBD5730079AB09 /* RACSubjectVC.m */,
+			);
+			path = RACSubjectVC;
+			sourceTree = "<group>";
+		};
+		40FF70B226BBD7B30079AB09 /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				40FF70BE26BBD7B30079AB09 /* RACBindMethodVC.h */,
+				40FF70B326BBD7B30079AB09 /* RACBindMethodVC.m */,
+				40FF70B526BBD7B30079AB09 /* RACCombineMethodVC.h */,
+				40FF70BD26BBD7B30079AB09 /* RACCombineMethodVC.m */,
+				40FF70BF26BBD7B30079AB09 /* RACFilterMethodVC.h */,
+				40FF70B426BBD7B30079AB09 /* RACFilterMethodVC.m */,
+				40FF70B926BBD7B30079AB09 /* RACMapMethodVC.h */,
+				40FF70C126BBD7B30079AB09 /* RACMapMethodVC.m */,
+				40FF70B826BBD7B30079AB09 /* RACOrderMethodVC.h */,
+				40FF70C226BBD7B30079AB09 /* RACOrderMethodVC.m */,
+				40FF70BA26BBD7B30079AB09 /* RACRepeatMethodVC.h */,
+				40FF70C026BBD7B30079AB09 /* RACRepeatMethodVC.m */,
+				40FF70BC26BBD7B30079AB09 /* RACSchedulerMethodVC.h */,
+				40FF70B626BBD7B30079AB09 /* RACSchedulerMethodVC.m */,
+				40FF70BB26BBD7B30079AB09 /* RACTimeMethodVC.h */,
+				40FF70B726BBD7B30079AB09 /* RACTimeMethodVC.m */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		40FF70CB26BBD7D10079AB09 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				40FF70CC26BBD7D10079AB09 /* LoginExample */,
+				40FF70D326BBD7D10079AB09 /* NetWorkExample */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		40FF70CC26BBD7D10079AB09 /* LoginExample */ = {
+			isa = PBXGroup;
+			children = (
+				40FF70CD26BBD7D10079AB09 /* LoginViewModel.h */,
+				40FF70CE26BBD7D10079AB09 /* Account.h */,
+				40FF70CF26BBD7D10079AB09 /* LoginExampleVC.h */,
+				40FF70D026BBD7D10079AB09 /* Account.m */,
+				40FF70D126BBD7D10079AB09 /* LoginViewModel.m */,
+				40FF70D226BBD7D10079AB09 /* LoginExampleVC.m */,
+			);
+			path = LoginExample;
+			sourceTree = "<group>";
+		};
+		40FF70D326BBD7D10079AB09 /* NetWorkExample */ = {
+			isa = PBXGroup;
+			children = (
+				40FF70D426BBD7D10079AB09 /* RACNetWorkExampleVC.m */,
+				40FF70D526BBD7D10079AB09 /* Book.h */,
+				40FF70D626BBD7D10079AB09 /* RACRequestViewModel.m */,
+				40FF70D726BBD7D10079AB09 /* Book.m */,
+				40FF70D826BBD7D10079AB09 /* RACNetWorkExampleVC.h */,
+				40FF70D926BBD7D10079AB09 /* RACRequestViewModel.h */,
+			);
+			path = NetWorkExample;
 			sourceTree = "<group>";
 		};
 		CEFA6DE6656D0B0FB465E51E /* Pods */ = {
@@ -416,19 +583,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40FF70C426BBD7B30079AB09 /* RACFilterMethodVC.m in Sources */,
 				4089B9B6266623D500001F50 /* ViewController.m in Sources */,
+				40FF70A126BBCF700079AB09 /* RACCommandVC.m in Sources */,
+				40FF70CA26BBD7B30079AB09 /* RACOrderMethodVC.m in Sources */,
+				40FF70DB26BBD7D10079AB09 /* LoginViewModel.m in Sources */,
 				40E5DE7626B147FA00E4BD30 /* SliderViewController.m in Sources */,
+				40FF70DC26BBD7D10079AB09 /* LoginExampleVC.m in Sources */,
 				40E5DE4E26B0F06800E4BD30 /* NoticeViewController.m in Sources */,
+				40FF70C626BBD7B30079AB09 /* RACTimeMethodVC.m in Sources */,
 				4089B9B0266623D500001F50 /* AppDelegate.m in Sources */,
+				40FF70C826BBD7B30079AB09 /* RACRepeatMethodVC.m in Sources */,
+				40FF70DA26BBD7D10079AB09 /* Account.m in Sources */,
+				40FF70DF26BBD7D10079AB09 /* Book.m in Sources */,
 				4096D20F26674B4B008BF7EC /* DelegateViewController.m in Sources */,
 				4089B9C1266623D700001F50 /* main.m in Sources */,
 				40E5DE5126B0F4CE00E4BD30 /* UIViewController+ORStoryBoard.m in Sources */,
+				40FF70A926BBD3F20079AB09 /* RACMacroVC.m in Sources */,
+				40FF70DE26BBD7D10079AB09 /* RACRequestViewModel.m in Sources */,
+				40FF70C526BBD7B30079AB09 /* RACSchedulerMethodVC.m in Sources */,
 				4096D20A266733A2008BF7EC /* TestModel.m in Sources */,
+				40FF70B026BBD5730079AB09 /* RACSubjectVC.m in Sources */,
+				40FF70AC26BBD4BC0079AB09 /* RACExampleOneVC.m in Sources */,
 				40E5DE5726B1226700E4BD30 /* TestViewController.m in Sources */,
+				40FF70DD26BBD7D10079AB09 /* RACNetWorkExampleVC.m in Sources */,
 				40E5DE7326B13A2B00E4BD30 /* LoginViewController.m in Sources */,
 				4089B9B3266623D500001F50 /* SceneDelegate.m in Sources */,
 				4096D2052667336B008BF7EC /* KVOViewController.m in Sources */,
+				40FF70C726BBD7B30079AB09 /* RACCombineMethodVC.m in Sources */,
+				40FF70C326BBD7B30079AB09 /* RACBindMethodVC.m in Sources */,
 				4096D213266750EE008BF7EC /* TargetViewController.m in Sources */,
+				40FF70A426BBD3AC0079AB09 /* RACMulticastConnectionVC.m in Sources */,
+				40FF70C926BBD7B30079AB09 /* RACMapMethodVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
